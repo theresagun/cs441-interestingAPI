@@ -12,6 +12,12 @@ import ARKit
 class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
+    
+    @IBOutlet var showPlants: UIButton!
+    @IBOutlet var showButterflies: UIButton!
+    @IBOutlet var p1: UIButton!
+    @IBOutlet var p2: UIButton!
+    @IBOutlet var p3: UIButton!
 
 
     override func viewDidAppear(_ animated: Bool) {
@@ -46,7 +52,7 @@ class ViewController: UIViewController {
             //if we actually found a horizontal surface
             //to place an obj to scene, must be anchored
             //name of anchor is the name of the asset
-            let anchor = ARAnchor(name: "ContemporaryFan", transform: firstResult.worldTransform)
+            let anchor = ARAnchor(name: "Bulbizarre_Pokemon", transform: firstResult.worldTransform)
             arView.session.add(anchor: anchor)
         }else{
             print("No horizontal surface found - could not place obj")
@@ -85,7 +91,7 @@ class ViewController: UIViewController {
 extension ViewController: ARSessionDelegate{
     func session(_ session: ARSession, didAdd anchors: [ARAnchor]) {
         for anchor in anchors{
-            if let anchorName = anchor.name, anchorName == "contemporaryFan"{
+            if let anchorName = anchor.name, anchorName == "Bulbizarre_Pokemon"{
                 //place obj with name for specific anchor
                 placeObject(named: anchorName, for: anchor)
             }

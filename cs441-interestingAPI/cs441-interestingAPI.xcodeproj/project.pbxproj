@@ -16,6 +16,8 @@
 		348A9A7025FFA94A00952D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348A9A6E25FFA94A00952D2B /* LaunchScreen.storyboard */; };
 		348A9A7B25FFA94B00952D2B /* cs441_interestingAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9A7A25FFA94B00952D2B /* cs441_interestingAPITests.swift */; };
 		348A9A8625FFA94B00952D2B /* cs441_interestingAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9A8525FFA94B00952D2B /* cs441_interestingAPIUITests.swift */; };
+		34CC2CB426052E28007153EB /* banana_plant.obj in Resources */ = {isa = PBXBuildFile; fileRef = 34CC2CB326052E28007153EB /* banana_plant.obj */; };
+		34CC2CB9260531DB007153EB /* Bulbizarre_Pokemon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 34CC2CB8260531DB007153EB /* Bulbizarre_Pokemon.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		348A9A8125FFA94B00952D2B /* cs441-interestingAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cs441-interestingAPIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		348A9A8525FFA94B00952D2B /* cs441_interestingAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs441_interestingAPIUITests.swift; sourceTree = "<group>"; };
 		348A9A8725FFA94B00952D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CC2CB326052E28007153EB /* banana_plant.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = banana_plant.obj; sourceTree = "<group>"; };
+		34CC2CB8260531DB007153EB /* Bulbizarre_Pokemon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bulbizarre_Pokemon.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 			children = (
 				348A9A6325FFA94900952D2B /* AppDelegate.swift */,
 				348A9A6525FFA94900952D2B /* ViewController.swift */,
+				34CC2CB8260531DB007153EB /* Bulbizarre_Pokemon.usdz */,
+				34CC2CB326052E28007153EB /* banana_plant.obj */,
 				3440325E2604E92600F5AD9C /* testBox.swift */,
 				348A9A6725FFA94900952D2B /* Experience.rcproject */,
 				348A9A6925FFA94900952D2B /* Main.storyboard */,
@@ -234,6 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34CC2CB426052E28007153EB /* banana_plant.obj in Resources */,
+				34CC2CB9260531DB007153EB /* Bulbizarre_Pokemon.usdz in Resources */,
 				348A9A7025FFA94A00952D2B /* LaunchScreen.storyboard in Resources */,
 				348A9A6D25FFA94A00952D2B /* Assets.xcassets in Resources */,
 				348A9A6B25FFA94900952D2B /* Main.storyboard in Resources */,
