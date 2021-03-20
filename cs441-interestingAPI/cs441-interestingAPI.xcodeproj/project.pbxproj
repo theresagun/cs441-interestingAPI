@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3440325F2604E92600F5AD9C /* testBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440325E2604E92600F5AD9C /* testBox.swift */; };
+		34240EEF26058031000DCDB1 /* butterfly1a.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 34240EEE26058031000DCDB1 /* butterfly1a.usdz */; };
+		34240EF426058159000DCDB1 /* butterfly2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 34240EF326058159000DCDB1 /* butterfly2.usdz */; };
+		34240EFC2605825C000DCDB1 /* Butterfly111.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 34240EFB2605825C000DCDB1 /* Butterfly111.usdz */; };
+		34240F0126058355000DCDB1 /* Monarch_Butterfly.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 34240F0026058355000DCDB1 /* Monarch_Butterfly.usdz */; };
 		348A9A6425FFA94900952D2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9A6325FFA94900952D2B /* AppDelegate.swift */; };
 		348A9A6625FFA94900952D2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9A6525FFA94900952D2B /* ViewController.swift */; };
 		348A9A6825FFA94900952D2B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 348A9A6725FFA94900952D2B /* Experience.rcproject */; };
@@ -16,8 +19,18 @@
 		348A9A7025FFA94A00952D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348A9A6E25FFA94A00952D2B /* LaunchScreen.storyboard */; };
 		348A9A7B25FFA94B00952D2B /* cs441_interestingAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9A7A25FFA94B00952D2B /* cs441_interestingAPITests.swift */; };
 		348A9A8625FFA94B00952D2B /* cs441_interestingAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9A8525FFA94B00952D2B /* cs441_interestingAPIUITests.swift */; };
-		34CC2CB426052E28007153EB /* banana_plant.obj in Resources */ = {isa = PBXBuildFile; fileRef = 34CC2CB326052E28007153EB /* banana_plant.obj */; };
 		34CC2CB9260531DB007153EB /* Bulbizarre_Pokemon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 34CC2CB8260531DB007153EB /* Bulbizarre_Pokemon.usdz */; };
+		34F273F526056B8300C971F2 /* butterfly3.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F273EF26056B8200C971F2 /* butterfly3.png */; };
+		34F273F626056B8300C971F2 /* flower2.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F273F026056B8200C971F2 /* flower2.png */; };
+		34F273F726056B8300C971F2 /* flower1.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F273F126056B8200C971F2 /* flower1.png */; };
+		34F273F826056B8300C971F2 /* butterfly1.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F273F226056B8200C971F2 /* butterfly1.png */; };
+		34F273F926056B8300C971F2 /* butterfly2.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F273F326056B8200C971F2 /* butterfly2.png */; };
+		34F273FA26056B8300C971F2 /* flower3.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F273F426056B8300C971F2 /* flower3.png */; };
+		34F2740426056E4600C971F2 /* butterfly3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 34F273FE26056E4600C971F2 /* butterfly3.usdz */; };
+		34F2740526056E4600C971F2 /* flower2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 34F273FF26056E4600C971F2 /* flower2.usdz */; };
+		34F2740726056E4600C971F2 /* flower1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 34F2740126056E4600C971F2 /* flower1.usdz */; };
+		34F2740826056E4600C971F2 /* butterfly1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 34F2740226056E4600C971F2 /* butterfly1.usdz */; };
+		34F2740926056E4600C971F2 /* flower3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 34F2740326056E4600C971F2 /* flower3.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3440325E2604E92600F5AD9C /* testBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testBox.swift; sourceTree = "<group>"; };
+		34240EEE26058031000DCDB1 /* butterfly1a.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = butterfly1a.usdz; sourceTree = "<group>"; };
+		34240EF326058159000DCDB1 /* butterfly2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = butterfly2.usdz; path = ../../../../../../Downloads/vr/butterfly2.usdz; sourceTree = "<group>"; };
+		34240EFB2605825C000DCDB1 /* Butterfly111.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Butterfly111.usdz; sourceTree = "<group>"; };
+		34240F0026058355000DCDB1 /* Monarch_Butterfly.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Monarch_Butterfly.usdz; sourceTree = "<group>"; };
 		348A9A6025FFA94900952D2B /* cs441-interestingAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cs441-interestingAPI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		348A9A6325FFA94900952D2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		348A9A6525FFA94900952D2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,8 +69,18 @@
 		348A9A8125FFA94B00952D2B /* cs441-interestingAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cs441-interestingAPIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		348A9A8525FFA94B00952D2B /* cs441_interestingAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs441_interestingAPIUITests.swift; sourceTree = "<group>"; };
 		348A9A8725FFA94B00952D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34CC2CB326052E28007153EB /* banana_plant.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = banana_plant.obj; sourceTree = "<group>"; };
 		34CC2CB8260531DB007153EB /* Bulbizarre_Pokemon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bulbizarre_Pokemon.usdz; sourceTree = "<group>"; };
+		34F273EF26056B8200C971F2 /* butterfly3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly3.png; sourceTree = "<group>"; };
+		34F273F026056B8200C971F2 /* flower2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower2.png; sourceTree = "<group>"; };
+		34F273F126056B8200C971F2 /* flower1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower1.png; sourceTree = "<group>"; };
+		34F273F226056B8200C971F2 /* butterfly1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly1.png; sourceTree = "<group>"; };
+		34F273F326056B8200C971F2 /* butterfly2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly2.png; sourceTree = "<group>"; };
+		34F273F426056B8300C971F2 /* flower3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower3.png; sourceTree = "<group>"; };
+		34F273FE26056E4600C971F2 /* butterfly3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = butterfly3.usdz; sourceTree = "<group>"; };
+		34F273FF26056E4600C971F2 /* flower2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower2.usdz; sourceTree = "<group>"; };
+		34F2740126056E4600C971F2 /* flower1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower1.usdz; sourceTree = "<group>"; };
+		34F2740226056E4600C971F2 /* butterfly1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = butterfly1.usdz; sourceTree = "<group>"; };
+		34F2740326056E4600C971F2 /* flower3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower3.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +133,22 @@
 			children = (
 				348A9A6325FFA94900952D2B /* AppDelegate.swift */,
 				348A9A6525FFA94900952D2B /* ViewController.swift */,
+				34240F0026058355000DCDB1 /* Monarch_Butterfly.usdz */,
+				34240EFB2605825C000DCDB1 /* Butterfly111.usdz */,
+				34240EEE26058031000DCDB1 /* butterfly1a.usdz */,
+				34F2740226056E4600C971F2 /* butterfly1.usdz */,
+				34240EF326058159000DCDB1 /* butterfly2.usdz */,
+				34F273FE26056E4600C971F2 /* butterfly3.usdz */,
+				34F2740126056E4600C971F2 /* flower1.usdz */,
+				34F273FF26056E4600C971F2 /* flower2.usdz */,
+				34F2740326056E4600C971F2 /* flower3.usdz */,
+				34F273F226056B8200C971F2 /* butterfly1.png */,
+				34F273F326056B8200C971F2 /* butterfly2.png */,
+				34F273EF26056B8200C971F2 /* butterfly3.png */,
+				34F273F126056B8200C971F2 /* flower1.png */,
+				34F273F026056B8200C971F2 /* flower2.png */,
+				34F273F426056B8300C971F2 /* flower3.png */,
 				34CC2CB8260531DB007153EB /* Bulbizarre_Pokemon.usdz */,
-				34CC2CB326052E28007153EB /* banana_plant.obj */,
-				3440325E2604E92600F5AD9C /* testBox.swift */,
 				348A9A6725FFA94900952D2B /* Experience.rcproject */,
 				348A9A6925FFA94900952D2B /* Main.storyboard */,
 				348A9A6C25FFA94A00952D2B /* Assets.xcassets */,
@@ -240,11 +279,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34CC2CB426052E28007153EB /* banana_plant.obj in Resources */,
 				34CC2CB9260531DB007153EB /* Bulbizarre_Pokemon.usdz in Resources */,
+				34F2740526056E4600C971F2 /* flower2.usdz in Resources */,
+				34F2740926056E4600C971F2 /* flower3.usdz in Resources */,
+				34F273F926056B8300C971F2 /* butterfly2.png in Resources */,
 				348A9A7025FFA94A00952D2B /* LaunchScreen.storyboard in Resources */,
 				348A9A6D25FFA94A00952D2B /* Assets.xcassets in Resources */,
+				34F273FA26056B8300C971F2 /* flower3.png in Resources */,
+				34240EEF26058031000DCDB1 /* butterfly1a.usdz in Resources */,
+				34F2740726056E4600C971F2 /* flower1.usdz in Resources */,
+				34F273F826056B8300C971F2 /* butterfly1.png in Resources */,
+				34240F0126058355000DCDB1 /* Monarch_Butterfly.usdz in Resources */,
+				34F273F626056B8300C971F2 /* flower2.png in Resources */,
+				34240EFC2605825C000DCDB1 /* Butterfly111.usdz in Resources */,
+				34F273F526056B8300C971F2 /* butterfly3.png in Resources */,
 				348A9A6B25FFA94900952D2B /* Main.storyboard in Resources */,
+				34F273F726056B8300C971F2 /* flower1.png in Resources */,
+				34F2740826056E4600C971F2 /* butterfly1.usdz in Resources */,
+				34240EF426058159000DCDB1 /* butterfly2.usdz in Resources */,
+				34F2740426056E4600C971F2 /* butterfly3.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +323,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				348A9A6625FFA94900952D2B /* ViewController.swift in Sources */,
-				3440325F2604E92600F5AD9C /* testBox.swift in Sources */,
 				348A9A6425FFA94900952D2B /* AppDelegate.swift in Sources */,
 				348A9A6825FFA94900952D2B /* Experience.rcproject in Sources */,
 			);

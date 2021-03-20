@@ -17,48 +17,63 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create your own butterfly garden!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOy-96-ZSw">
-                                <rect key="frame" x="33" y="572" width="349" height="29"/>
+                                <rect key="frame" x="33" y="485" width="349" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hI3-9U-j3X">
-                                <rect key="frame" x="124" y="609" width="53" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Flowers"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFh-zR-ibk">
-                                <rect key="frame" x="184" y="686" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNb-Z6-chc">
-                                <rect key="frame" x="336" y="686" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ove-p8-Sov">
-                                <rect key="frame" x="33" y="686" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sv8-1T-ZSk">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="564"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="477"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <arView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TBz-cU-Bx1">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="564"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="477"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </arView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hI3-9U-j3X">
+                                <rect key="frame" x="124" y="522" width="53" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Flowers"/>
+                                <connections>
+                                    <action selector="clickedPlants" destination="BYZ-38-t0r" eventType="touchUpInside" id="t5B-W3-yfV"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTU-mD-dsx">
-                                <rect key="frame" x="240" y="609" width="71" height="30"/>
+                                <rect key="frame" x="240" y="522" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Butterflies"/>
+                                <connections>
+                                    <action selector="clickedButterflies" destination="BYZ-38-t0r" eventType="touchUpInside" id="DPt-RE-0f8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3g-fk-TGY">
+                                <rect key="frame" x="166" y="560" width="83" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="clickedP2" destination="BYZ-38-t0r" eventType="touchUpInside" id="cFQ-4e-LZr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6Q-fm-LjH">
+                                <rect key="frame" x="299" y="560" width="83" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="clickedP3" destination="BYZ-38-t0r" eventType="touchUpInside" id="bxk-wu-k4B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ove-p8-Sov">
+                                <rect key="frame" x="33" y="560" width="83" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="clickedP1" destination="BYZ-38-t0r" eventType="touchUpInside" id="aTa-jF-A54"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OSP-cE-fCs"/>
@@ -67,8 +82,8 @@
                     <connections>
                         <outlet property="arView" destination="TBz-cU-Bx1" id="qpS-CB-62v"/>
                         <outlet property="p1" destination="Ove-p8-Sov" id="6BH-wc-6NG"/>
-                        <outlet property="p2" destination="LFh-zR-ibk" id="gck-jJ-sQO"/>
-                        <outlet property="p3" destination="NNb-Z6-chc" id="S2a-2R-WaV"/>
+                        <outlet property="p2" destination="c3g-fk-TGY" id="d3J-15-uBa"/>
+                        <outlet property="p3" destination="N6Q-fm-LjH" id="7zF-DE-DoM"/>
                         <outlet property="showButterflies" destination="XTU-mD-dsx" id="lKb-58-HbK"/>
                         <outlet property="showPlants" destination="hI3-9U-j3X" id="eg6-YX-52m"/>
                     </connections>

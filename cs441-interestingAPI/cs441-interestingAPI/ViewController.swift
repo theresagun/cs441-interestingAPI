@@ -18,7 +18,9 @@ class ViewController: UIViewController {
     @IBOutlet var p1: UIButton!
     @IBOutlet var p2: UIButton!
     @IBOutlet var p3: UIButton!
-
+    
+    var isPlants: Bool!
+    var image3d: String!
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -28,6 +30,12 @@ class ViewController: UIViewController {
         setUpARView()
 
         arView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap(recognizer:))))
+        //p1.buttonType = UIButton.ButtonType(0)
+        p1.setImage(UIImage(named: "flower1.png"), for: .normal)
+        p2.setImage(UIImage(named: "flower2.png"), for: .normal)
+        p3.setImage(UIImage(named: "flower3.png"), for: .normal)
+        image3d = "flower1"
+        isPlants = true
     }
 
     //for set up
@@ -52,7 +60,7 @@ class ViewController: UIViewController {
             //if we actually found a horizontal surface
             //to place an obj to scene, must be anchored
             //name of anchor is the name of the asset
-            let anchor = ARAnchor(name: "Bulbizarre_Pokemon", transform: firstResult.worldTransform)
+            let anchor = ARAnchor(name: image3d, transform: firstResult.worldTransform)
             arView.session.add(anchor: anchor)
         }else{
             print("No horizontal surface found - could not place obj")
@@ -71,27 +79,58 @@ class ViewController: UIViewController {
         arView.scene.addAnchor(anchorEntity) // add to scene
     }
     
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//
-////        // Load the "Box" scene from the "Experience" Reality File
-////        let boxAnchor = try! Experience.loadBox()
-////
-////        // Add the box anchor to the scene
-////        arView.scene.anchors.append(boxAnchor)
-//
-//        // Load the "Box" scene from the "Experience" Reality File
-//        let test = testBox.init()
-//
-//        // Add the box anchor to the scene
-//        arView.scene.anchors.append(test)
-//    }
+    @IBAction func clickedPlants(){
+        p1.setImage(UIImage(named: "flower1.png"), for: .normal)
+        p2.setImage(UIImage(named: "flower2.png"), for: .normal)
+        p3.setImage(UIImage(named: "flower3.png"), for: .normal)
+        isPlants = true
+    }
+    
+    @IBAction func clickedButterflies(){
+        p1.setImage(UIImage(named: "butterfly1.png"), for: .normal)
+        p2.setImage(UIImage(named: "butterfly2.png"), for: .normal)
+        p3.setImage(UIImage(named: "butterfly3.png"), for: .normal)
+        isPlants = false
+    }
+    
+    @IBAction func clickedP1(){
+        NSLog("Clicked p1")
+        if isPlants{
+            image3d = "flower1"
+        }
+        else{
+            image3d = "butterfly1"
+        }
+    }
+    
+    @IBAction func clickedP2(){
+        NSLog("Clicked p2")
+
+        if isPlants{
+            image3d = "flower2"
+        }
+        else{
+            image3d = "butterfly2"
+        }
+    }
+    
+    @IBAction func clickedP3(){
+        NSLog("Clicked p3")
+
+        if isPlants{
+            image3d = "flower3"
+        }
+        else{
+            image3d = "butterfly3"
+        }
+    }
+    
 }
 
 extension ViewController: ARSessionDelegate{
     func session(_ session: ARSession, didAdd anchors: [ARAnchor]) {
         for anchor in anchors{
-            if let anchorName = anchor.name, anchorName == "Bulbizarre_Pokemon"{
+            if let anchorName = anchor.name, anchorName == image3d{
                 //place obj with name for specific anchor
                 placeObject(named: anchorName, for: anchor)
             }
