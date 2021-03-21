@@ -99,7 +99,7 @@ class ViewController: UIViewController {
             image3d = "flower1"
         }
         else{
-            image3d = "butterfly1a"
+            image3d = "butterfly1edit"
         }
     }
     
