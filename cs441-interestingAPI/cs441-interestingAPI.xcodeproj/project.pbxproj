@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		343757212606CD35002424DD /* flower2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3437571D2606CD35002424DD /* flower2.usdz */; };
-		343757232606CD35002424DD /* flower1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3437571F2606CD35002424DD /* flower1.usdz */; };
 		343757432606DF0F002424DD /* butterfly1edit.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 343757422606DF0F002424DD /* butterfly1edit.usdz */; };
+		343757622606E971002424DD /* butterfly3edit.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 343757612606E971002424DD /* butterfly3edit.usdz */; };
+		3486F8A2260813A900799AA4 /* butterfly2edit.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3486F8A0260813A900799AA4 /* butterfly2edit.usdz */; };
+		3486F8AD260818EE00799AA4 /* flower1edit.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3486F8AC260818EE00799AA4 /* flower1edit.usdz */; };
 		348A9A6425FFA94900952D2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9A6325FFA94900952D2B /* AppDelegate.swift */; };
 		348A9A6625FFA94900952D2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9A6525FFA94900952D2B /* ViewController.swift */; };
 		348A9A6825FFA94900952D2B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 348A9A6725FFA94900952D2B /* Experience.rcproject */; };
@@ -19,6 +20,7 @@
 		348A9A7B25FFA94B00952D2B /* cs441_interestingAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9A7A25FFA94B00952D2B /* cs441_interestingAPITests.swift */; };
 		348A9A8625FFA94B00952D2B /* cs441_interestingAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9A8525FFA94B00952D2B /* cs441_interestingAPIUITests.swift */; };
 		34CC2CB9260531DB007153EB /* Bulbizarre_Pokemon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 34CC2CB8260531DB007153EB /* Bulbizarre_Pokemon.usdz */; };
+		34CE1EDC2608336D0086272D /* flower2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 34CE1EDB2608336D0086272D /* flower2.usdz */; };
 		34F273F526056B8300C971F2 /* butterfly3.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F273EF26056B8200C971F2 /* butterfly3.png */; };
 		34F273F626056B8300C971F2 /* flower2.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F273F026056B8200C971F2 /* flower2.png */; };
 		34F273F726056B8300C971F2 /* flower1.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F273F126056B8200C971F2 /* flower1.png */; };
@@ -46,9 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3437571D2606CD35002424DD /* flower2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower2.usdz; sourceTree = "<group>"; };
-		3437571F2606CD35002424DD /* flower1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower1.usdz; sourceTree = "<group>"; };
 		343757422606DF0F002424DD /* butterfly1edit.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = butterfly1edit.usdz; sourceTree = "<group>"; };
+		343757612606E971002424DD /* butterfly3edit.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = butterfly3edit.usdz; sourceTree = "<group>"; };
+		3486F8A0260813A900799AA4 /* butterfly2edit.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = butterfly2edit.usdz; sourceTree = "<group>"; };
+		3486F8AC260818EE00799AA4 /* flower1edit.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower1edit.usdz; sourceTree = "<group>"; };
 		348A9A6025FFA94900952D2B /* cs441-interestingAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cs441-interestingAPI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		348A9A6325FFA94900952D2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		348A9A6525FFA94900952D2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +67,7 @@
 		348A9A8525FFA94B00952D2B /* cs441_interestingAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs441_interestingAPIUITests.swift; sourceTree = "<group>"; };
 		348A9A8725FFA94B00952D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34CC2CB8260531DB007153EB /* Bulbizarre_Pokemon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bulbizarre_Pokemon.usdz; sourceTree = "<group>"; };
+		34CE1EDB2608336D0086272D /* flower2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower2.usdz; sourceTree = "<group>"; };
 		34F273EF26056B8200C971F2 /* butterfly3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly3.png; sourceTree = "<group>"; };
 		34F273F026056B8200C971F2 /* flower2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower2.png; sourceTree = "<group>"; };
 		34F273F126056B8200C971F2 /* flower1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower1.png; sourceTree = "<group>"; };
@@ -124,8 +128,10 @@
 				348A9A6325FFA94900952D2B /* AppDelegate.swift */,
 				348A9A6525FFA94900952D2B /* ViewController.swift */,
 				343757422606DF0F002424DD /* butterfly1edit.usdz */,
-				3437571F2606CD35002424DD /* flower1.usdz */,
-				3437571D2606CD35002424DD /* flower2.usdz */,
+				3486F8A0260813A900799AA4 /* butterfly2edit.usdz */,
+				343757612606E971002424DD /* butterfly3edit.usdz */,
+				3486F8AC260818EE00799AA4 /* flower1edit.usdz */,
+				34CE1EDB2608336D0086272D /* flower2.usdz */,
 				34F2740326056E4600C971F2 /* flower3.usdz */,
 				34F273F226056B8200C971F2 /* butterfly1.png */,
 				34F273F326056B8200C971F2 /* butterfly2.png */,
@@ -265,6 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				34CC2CB9260531DB007153EB /* Bulbizarre_Pokemon.usdz in Resources */,
+				34CE1EDC2608336D0086272D /* flower2.usdz in Resources */,
+				343757622606E971002424DD /* butterfly3edit.usdz in Resources */,
 				34F2740926056E4600C971F2 /* flower3.usdz in Resources */,
 				34F273F926056B8300C971F2 /* butterfly2.png in Resources */,
 				343757432606DF0F002424DD /* butterfly1edit.usdz in Resources */,
@@ -273,10 +281,10 @@
 				34F273FA26056B8300C971F2 /* flower3.png in Resources */,
 				34F273F826056B8300C971F2 /* butterfly1.png in Resources */,
 				34F273F626056B8300C971F2 /* flower2.png in Resources */,
+				3486F8A2260813A900799AA4 /* butterfly2edit.usdz in Resources */,
 				34F273F526056B8300C971F2 /* butterfly3.png in Resources */,
-				343757232606CD35002424DD /* flower1.usdz in Resources */,
 				348A9A6B25FFA94900952D2B /* Main.storyboard in Resources */,
-				343757212606CD35002424DD /* flower2.usdz in Resources */,
+				3486F8AD260818EE00799AA4 /* flower1edit.usdz in Resources */,
 				34F273F726056B8300C971F2 /* flower1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

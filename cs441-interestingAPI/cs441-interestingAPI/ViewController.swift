@@ -96,7 +96,7 @@ class ViewController: UIViewController {
     @IBAction func clickedP1(){
         NSLog("Clicked p1")
         if isPlants{
-            image3d = "flower1"
+            image3d = "flower1edit"
         }
         else{
             image3d = "butterfly1edit"
@@ -105,23 +105,21 @@ class ViewController: UIViewController {
     
     @IBAction func clickedP2(){
         NSLog("Clicked p2")
-
         if isPlants{
             image3d = "flower2"
         }
         else{
-            image3d = "butterfly2copy"
+            image3d = "butterfly2edit"
         }
     }
     
     @IBAction func clickedP3(){
         NSLog("Clicked p3")
-
         if isPlants{
             image3d = "flower3"
         }
         else{
-            image3d = "butterfly3"
+            image3d = "butterfly3edit"
         }
     }
     
